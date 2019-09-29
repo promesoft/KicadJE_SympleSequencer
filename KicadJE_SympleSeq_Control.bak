@@ -14,14 +14,307 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Timer:LM555 U?
-U 1 1 5C8BFE02
-P 2650 2000
-F 0 "U?" H 2650 2578 50  0000 C CNN
-F 1 "LM555" H 2650 2487 50  0000 C CNN
-F 2 "" H 2650 2000 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm555.pdf" H 2650 2000 50  0001 C CNN
-	1    2650 2000
+L Device:LED D?
+U 1 1 5D8FA8D7
+P 4500 4150
+F 0 "D?" V 4750 4150 50  0000 R CNN
+F 1 "LED" V 4650 4150 50  0000 R CNN
+F 2 "LED_THT:LED_D5.0mm" H 4500 4150 50  0001 C CNN
+F 3 "~" H 4500 4150 50  0001 C CNN
+	1    4500 4150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_POT RV?
+U 1 1 5D8FD9D8
+P 5000 4150
+F 0 "RV?" H 4931 4196 50  0000 R CNN
+F 1 "R_POT" H 4931 4105 50  0000 R CNN
+F 2 "" H 5000 4150 50  0001 C CNN
+F 3 "~" H 5000 4150 50  0001 C CNN
+	1    5000 4150
 	1    0    0    -1  
 $EndComp
+$Comp
+L Switch:SW_SPDT SW?
+U 1 1 5D8FE28E
+P 4300 3600
+F 0 "SW?" H 4300 3885 50  0000 C CNN
+F 1 "SW_SPDT" H 4300 3794 50  0000 C CNN
+F 2 "" H 4300 3600 50  0001 C CNN
+F 3 "~" H 4300 3600 50  0001 C CNN
+	1    4300 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 4000 4500 3700
+Wire Wire Line
+	5000 3700 4500 3700
+Connection ~ 4500 3700
+Wire Wire Line
+	5000 3700 5000 4000
+$Comp
+L Device:R R?
+U 1 1 5D900B45
+P 4500 4650
+F 0 "R?" H 4570 4696 50  0000 L CNN
+F 1 "R" H 4570 4605 50  0000 L CNN
+F 2 "" V 4430 4650 50  0001 C CNN
+F 3 "~" H 4500 4650 50  0001 C CNN
+	1    4500 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 4500 4500 4300
+Wire Wire Line
+	5000 4300 5000 4850
+Wire Wire Line
+	5000 4850 4500 4850
+Wire Wire Line
+	4500 4850 4500 4800
+Text HLabel 4000 3600 0    50   Input ~ 0
+In_4
+Wire Wire Line
+	4000 3600 4100 3600
+Text HLabel 4750 3500 2    50   Input ~ 0
+reset
+Wire Wire Line
+	4500 3500 4750 3500
+Text HLabel 5300 4150 2    50   Input ~ 0
+CV
+Text HLabel 5300 3700 2    50   Input ~ 0
+Gate
+Wire Wire Line
+	5000 3700 5300 3700
+Connection ~ 5000 3700
+Wire Wire Line
+	5300 4150 5150 4150
+$Comp
+L Device:LED D?
+U 1 1 5D902318
+P 2550 4100
+F 0 "D?" V 2800 4100 50  0000 R CNN
+F 1 "LED" V 2700 4100 50  0000 R CNN
+F 2 "LED_THT:LED_D5.0mm" H 2550 4100 50  0001 C CNN
+F 3 "~" H 2550 4100 50  0001 C CNN
+	1    2550 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_POT RV?
+U 1 1 5D902322
+P 3050 4100
+F 0 "RV?" H 2981 4146 50  0000 R CNN
+F 1 "R_POT" H 2981 4055 50  0000 R CNN
+F 2 "" H 3050 4100 50  0001 C CNN
+F 3 "~" H 3050 4100 50  0001 C CNN
+	1    3050 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPDT SW?
+U 1 1 5D90232C
+P 2350 3550
+F 0 "SW?" H 2350 3835 50  0000 C CNN
+F 1 "SW_SPDT" H 2350 3744 50  0000 C CNN
+F 2 "" H 2350 3550 50  0001 C CNN
+F 3 "~" H 2350 3550 50  0001 C CNN
+	1    2350 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 3950 2550 3650
+Wire Wire Line
+	3050 3650 2550 3650
+Connection ~ 2550 3650
+Wire Wire Line
+	3050 3650 3050 3950
+$Comp
+L Device:R R?
+U 1 1 5D90233A
+P 2550 4600
+F 0 "R?" H 2620 4646 50  0000 L CNN
+F 1 "R" H 2620 4555 50  0000 L CNN
+F 2 "" V 2480 4600 50  0001 C CNN
+F 3 "~" H 2550 4600 50  0001 C CNN
+	1    2550 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 4450 2550 4250
+Wire Wire Line
+	3050 4250 3050 4800
+Wire Wire Line
+	3050 4800 2550 4800
+Wire Wire Line
+	2550 4800 2550 4750
+Text HLabel 2050 3550 0    50   Input ~ 0
+In_3
+Wire Wire Line
+	2050 3550 2150 3550
+Text HLabel 2800 3450 2    50   Input ~ 0
+reset
+Wire Wire Line
+	2550 3450 2800 3450
+Text HLabel 3350 4100 2    50   Input ~ 0
+CV
+Text HLabel 3350 3650 2    50   Input ~ 0
+Gate
+Wire Wire Line
+	3050 3650 3350 3650
+Connection ~ 3050 3650
+Wire Wire Line
+	3350 4100 3200 4100
+$Comp
+L Device:LED D?
+U 1 1 5D90557F
+P 4500 2300
+F 0 "D?" V 4750 2300 50  0000 R CNN
+F 1 "LED" V 4650 2300 50  0000 R CNN
+F 2 "LED_THT:LED_D5.0mm" H 4500 2300 50  0001 C CNN
+F 3 "~" H 4500 2300 50  0001 C CNN
+	1    4500 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_POT RV?
+U 1 1 5D905589
+P 5000 2300
+F 0 "RV?" H 4931 2346 50  0000 R CNN
+F 1 "R_POT" H 4931 2255 50  0000 R CNN
+F 2 "" H 5000 2300 50  0001 C CNN
+F 3 "~" H 5000 2300 50  0001 C CNN
+	1    5000 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPDT SW?
+U 1 1 5D905593
+P 4300 1750
+F 0 "SW?" H 4300 2035 50  0000 C CNN
+F 1 "SW_SPDT" H 4300 1944 50  0000 C CNN
+F 2 "" H 4300 1750 50  0001 C CNN
+F 3 "~" H 4300 1750 50  0001 C CNN
+	1    4300 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 2150 4500 1850
+Wire Wire Line
+	5000 1850 4500 1850
+Connection ~ 4500 1850
+Wire Wire Line
+	5000 1850 5000 2150
+$Comp
+L Device:R R?
+U 1 1 5D9055A1
+P 4500 2800
+F 0 "R?" H 4570 2846 50  0000 L CNN
+F 1 "R" H 4570 2755 50  0000 L CNN
+F 2 "" V 4430 2800 50  0001 C CNN
+F 3 "~" H 4500 2800 50  0001 C CNN
+	1    4500 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 2650 4500 2450
+Wire Wire Line
+	5000 2450 5000 3000
+Wire Wire Line
+	5000 3000 4500 3000
+Wire Wire Line
+	4500 3000 4500 2950
+Text HLabel 4000 1750 0    50   Input ~ 0
+In_2
+Wire Wire Line
+	4000 1750 4100 1750
+Text HLabel 4750 1650 2    50   Input ~ 0
+reset
+Wire Wire Line
+	4500 1650 4750 1650
+Text HLabel 5300 2300 2    50   Input ~ 0
+CV
+Text HLabel 5300 1850 2    50   Input ~ 0
+Gate
+Wire Wire Line
+	5000 1850 5300 1850
+Connection ~ 5000 1850
+Wire Wire Line
+	5300 2300 5150 2300
+$Comp
+L Device:LED D?
+U 1 1 5D9055B8
+P 2550 2250
+F 0 "D?" V 2800 2250 50  0000 R CNN
+F 1 "LED" V 2700 2250 50  0000 R CNN
+F 2 "LED_THT:LED_D5.0mm" H 2550 2250 50  0001 C CNN
+F 3 "~" H 2550 2250 50  0001 C CNN
+	1    2550 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_POT RV?
+U 1 1 5D9055C2
+P 3050 2250
+F 0 "RV?" H 2981 2296 50  0000 R CNN
+F 1 "R_POT" H 2981 2205 50  0000 R CNN
+F 2 "AJ:Potentiometer_China_RK09_Single_Vertical_AJ" H 3050 2250 50  0001 C CNN
+F 3 "~" H 3050 2250 50  0001 C CNN
+	1    3050 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPDT SW?
+U 1 1 5D9055CC
+P 2350 1700
+F 0 "SW?" H 2350 1985 50  0000 C CNN
+F 1 "SW_SPDT" H 2350 1894 50  0000 C CNN
+F 2 "" H 2350 1700 50  0001 C CNN
+F 3 "~" H 2350 1700 50  0001 C CNN
+	1    2350 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 2100 2550 1800
+Wire Wire Line
+	3050 1800 2550 1800
+Connection ~ 2550 1800
+Wire Wire Line
+	3050 1800 3050 2100
+$Comp
+L Device:R R?
+U 1 1 5D9055DA
+P 2550 2750
+F 0 "R?" H 2620 2796 50  0000 L CNN
+F 1 "R" H 2620 2705 50  0000 L CNN
+F 2 "" V 2480 2750 50  0001 C CNN
+F 3 "~" H 2550 2750 50  0001 C CNN
+	1    2550 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 2600 2550 2400
+Wire Wire Line
+	3050 2400 3050 2950
+Wire Wire Line
+	3050 2950 2550 2950
+Wire Wire Line
+	2550 2950 2550 2900
+Text HLabel 2050 1700 0    50   Input ~ 0
+In_1
+Wire Wire Line
+	2050 1700 2150 1700
+Text HLabel 2800 1600 2    50   Input ~ 0
+reset
+Wire Wire Line
+	2550 1600 2800 1600
+Text HLabel 3350 2250 2    50   Input ~ 0
+CV
+Text HLabel 3350 1800 2    50   Input ~ 0
+Gate
+Wire Wire Line
+	3050 1800 3350 1800
+Connection ~ 3050 1800
+Wire Wire Line
+	3350 2250 3200 2250
 $EndSCHEMATC
