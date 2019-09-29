@@ -470,4 +470,82 @@ Wire Wire Line
 	1800 6100 1800 6500
 Wire Wire Line
 	1800 5500 1800 6100
+$Comp
+L Connector_Generic:Conn_01x06 J?
+U 1 1 5DAE9349
+P 6500 3600
+F 0 "J?" H 6418 4017 50  0000 C CNN
+F 1 "Conn_01x06" H 6418 3926 50  0000 C CNN
+F 2 "" H 6500 3600 50  0001 C CNN
+F 3 "~" H 6500 3600 50  0001 C CNN
+	1    6500 3600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J?
+U 1 1 5DAEAEAF
+P 6500 4100
+F 0 "J?" H 6418 4417 50  0000 C CNN
+F 1 "Conn_01x03" H 6418 4326 50  0000 C CNN
+F 2 "" H 6500 4100 50  0001 C CNN
+F 3 "~" H 6500 4100 50  0001 C CNN
+	1    6500 4100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J?
+U 1 1 5DAEBA5E
+P 6100 4100
+F 0 "J?" H 6018 4417 50  0000 C CNN
+F 1 "Conn_01x03" H 6018 4326 50  0000 C CNN
+F 2 "" H 6100 4100 50  0001 C CNN
+F 3 "~" H 6100 4100 50  0001 C CNN
+	1    6100 4100
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 4000 7000 4000
+Wire Wire Line
+	6700 4100 7000 4100
+Wire Wire Line
+	6700 3800 7000 3800
+Wire Wire Line
+	6700 3700 7000 3700
+Wire Wire Line
+	6700 3600 7000 3600
+Wire Wire Line
+	6700 3500 7000 3500
+Wire Wire Line
+	6700 3400 7000 3400
+Wire Wire Line
+	6300 4000 6700 4000
+Connection ~ 6700 4000
+Wire Wire Line
+	6300 4100 6700 4100
+Connection ~ 6700 4100
+Wire Wire Line
+	6300 4200 6700 4200
+$Comp
+L Envelope-cache-2018-08-04-13-00-04:GND #PWR?
+U 1 1 5DAF76B5
+P 6850 4300
+AR Path="/5DAF76B5" Ref="#PWR?"  Part="1" 
+AR Path="/5C8C5FC0/5DAF76B5" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6850 4050 50  0001 C CNN
+F 1 "GND" H 6855 4127 50  0000 C CNN
+F 2 "" H 6850 4300 50  0001 C CNN
+F 3 "" H 6850 4300 50  0001 C CNN
+	1    6850 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 4200 6850 4200
+Wire Wire Line
+	6850 4200 6850 4300
+Connection ~ 6700 4200
+Wire Wire Line
+	6700 3900 6850 3900
+Wire Wire Line
+	6850 3900 6850 4200
+Connection ~ 6850 4200
 $EndSCHEMATC
