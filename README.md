@@ -8,7 +8,6 @@ Designed to fit the faceplate of a Hexinverter SympleSeq E2 faceplate from Re:Sy
 # Purpose
 1 - Match Hexinverter sch with Resynthesis panel
 
-2 - Make a RIAA for the TD126
 # Status - ordered
 ## Initial 
 | Stage  | Detail | Status |
@@ -52,3 +51,4 @@ Designed to fit the faceplate of a Hexinverter SympleSeq E2 faceplate from Re:Sy
 ![]()
 
 # Inspiration from 
+Counter module in https://github.com/promesoft/KicadJE_EffectsUnit1
