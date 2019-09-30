@@ -184,7 +184,7 @@ L Connector_Generic:Conn_01x03 J104
 U 1 1 5DAEAEAF
 P 6150 2450
 F 0 "J104" H 6068 2767 50  0000 C CNN
-F 1 "CV-G8_Mod2" H 6068 2676 50  0000 C CNN
+F 1 "CV-G8_Mod2" H 6000 2700 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 6150 2450 50  0001 C CNN
 F 3 "~" H 6150 2450 50  0001 C CNN
 	1    6150 2450
@@ -602,4 +602,24 @@ Text GLabel 6550 6500 1    50   Input ~ 0
 +12Vc
 Text GLabel 6550 7300 3    50   Input ~ 0
 -12Vc
+$Comp
+L Connector_Generic:Conn_01x03 J109
+U 1 1 5DC2EB18
+P 5350 2450
+F 0 "J109" H 5268 2767 50  0000 C CNN
+F 1 "CV-G8_Base" H 5400 2700 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 5350 2450 50  0001 C CNN
+F 3 "~" H 5350 2450 50  0001 C CNN
+	1    5350 2450
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 2450 5950 2450
+Wire Wire Line
+	5550 2550 5950 2550
+Wire Wire Line
+	5550 2350 5950 2350
+Connection ~ 5950 2350
+Connection ~ 5950 2450
+Connection ~ 5950 2550
 $EndSCHEMATC

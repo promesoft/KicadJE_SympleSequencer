@@ -154,7 +154,7 @@ AR Path="/5D9A7FC9" Ref="J?"  Part="1"
 AR Path="/5C8C5FC0/5D9A7FC9" Ref="J201"  Part="1" 
 F 0 "J201" H 830 3875 50  0000 C CNN
 F 1 "clk_in" H 600 3600 50  0000 C CNN
-F 2 "AJ-Dropbox-Kicad:PJ301SM" H 800 3550 50  0001 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_Ledino_KB3SPRS_Horizontal" H 800 3550 50  0001 C CNN
 F 3 "~" H 800 3550 50  0001 C CNN
 	1    800  3550
 	1    0    0    -1  
@@ -167,7 +167,7 @@ AR Path="/5D9A7FCF" Ref="J?"  Part="1"
 AR Path="/5C8C5FC0/5D9A7FCF" Ref="J202"  Part="1" 
 F 0 "J202" H 830 4275 50  0000 C CNN
 F 1 "clk_out" H 600 4050 50  0000 C CNN
-F 2 "AJ-Dropbox-Kicad:PJ301SM" H 800 3950 50  0001 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_Ledino_KB3SPRS_Horizontal" H 800 3950 50  0001 C CNN
 F 3 "~" H 800 3950 50  0001 C CNN
 	1    800  3950
 	1    0    0    -1  
@@ -209,7 +209,7 @@ AR Path="/5D9AC27D" Ref="J?"  Part="1"
 AR Path="/5C8C5FC0/5D9AC27D" Ref="J204"  Part="1" 
 F 0 "J204" H 830 5175 50  0000 C CNN
 F 1 "Reset" H 550 4900 50  0000 C CNN
-F 2 "AJ-Dropbox-Kicad:PJ301SM" H 800 4850 50  0001 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_Ledino_KB3SPRS_Horizontal" H 800 4850 50  0001 C CNN
 F 3 "~" H 800 4850 50  0001 C CNN
 	1    800  4850
 	1    0    0    -1  
@@ -222,7 +222,7 @@ AR Path="/5D9AC289" Ref="J?"  Part="1"
 AR Path="/5C8C5FC0/5D9AC289" Ref="J203"  Part="1" 
 F 0 "J203" H 830 4725 50  0000 C CNN
 F 1 "Hold" H 600 4500 50  0000 C CNN
-F 2 "AJ-Dropbox-Kicad:PJ301SM" H 800 4400 50  0001 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_Ledino_KB3SPRS_Horizontal" H 800 4400 50  0001 C CNN
 F 3 "~" H 800 4400 50  0001 C CNN
 	1    800  4400
 	1    0    0    -1  
@@ -476,7 +476,7 @@ Wire Wire Line
 Wire Wire Line
 	2150 3350 2100 3350
 Wire Wire Line
-	2100 3350 2100 3600
+	2100 3350 2100 3500
 Connection ~ 2100 3600
 Text GLabel 2100 4600 2    50   Input ~ 0
 +12Vc
@@ -541,8 +541,6 @@ Wire Wire Line
 	2450 3500 2500 3500
 Wire Wire Line
 	2500 3500 2500 3350
-Wire Wire Line
-	2150 3500 2100 3500
 $Comp
 L Device:LED D?
 U 1 1 5D9EB48D
@@ -807,4 +805,37 @@ Wire Wire Line
 	7650 2550 7650 2600
 Wire Wire Line
 	7650 2600 7350 2600
+$Comp
+L Envelope-cache-2018-08-04-13-00-04:GND #PWR?
+U 1 1 5DC0A5A8
+P 7050 2600
+AR Path="/5DC0A5A8" Ref="#PWR?"  Part="1" 
+AR Path="/5C8C5FC0/5DC0A5A8" Ref="#PWR0115"  Part="1" 
+F 0 "#PWR0115" H 7050 2350 50  0001 C CNN
+F 1 "GND" H 7055 2427 50  0000 C CNN
+F 2 "" H 7050 2600 50  0001 C CNN
+F 3 "" H 7050 2600 50  0001 C CNN
+	1    7050 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Envelope-cache-2018-08-04-13-00-04:GND #PWR?
+U 1 1 5DC0B21E
+P 6450 2600
+AR Path="/5DC0B21E" Ref="#PWR?"  Part="1" 
+AR Path="/5C8C5FC0/5DC0B21E" Ref="#PWR0116"  Part="1" 
+F 0 "#PWR0116" H 6450 2350 50  0001 C CNN
+F 1 "GND" H 6455 2427 50  0000 C CNN
+F 2 "" H 6450 2600 50  0001 C CNN
+F 3 "" H 6450 2600 50  0001 C CNN
+	1    6450 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 2600 6550 2600
+Wire Wire Line
+	2150 3500 2100 3500
+Connection ~ 2100 3500
+Wire Wire Line
+	2100 3500 2100 3600
 $EndSCHEMATC

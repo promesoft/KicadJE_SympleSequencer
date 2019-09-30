@@ -1,4 +1,4 @@
-update=30/09/2019 17:11:49
+update=30/09/2019 20:39:51
 version=1
 last_client=kicad
 [general]
@@ -57,7 +57,7 @@ OthersTextUpright=1
 SolderMaskClearance=0.2
 SolderMaskMinWidth=0.25
 SolderPasteClearance=0
-SolderPasteRatio=0
+SolderPasteRatio=-0
 [pcbnew/Netclasses]
 [pcbnew/Netclasses/1]
 Name=Power
