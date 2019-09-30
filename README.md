@@ -37,13 +37,15 @@ Designed to fit the faceplate of a Hexinverter SympleSeq E2 faceplate from Re:Sy
 | Power Draw |  | 
 
 ## Errata
-### Errata - Ate0Ate Tom
+### Errata - clock
+### Errata - control
 
 ## Issues and Notes
-### Tom
+### Clock
 1 -
 
 2 - 
+### Control
 
 # Pictures
 ![]()
