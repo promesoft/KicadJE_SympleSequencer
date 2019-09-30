@@ -46,6 +46,11 @@ Designed to fit the faceplate of a Hexinverter SympleSeq E2 faceplate from Re:Sy
 2 - 
 ### Control
 
+## Vital Components
+ - CD4017
+ - LM555
+ - Jack connectors: PJ-324M (important for the footprint)
+
 # Pictures
 ![]()
 ![]()
