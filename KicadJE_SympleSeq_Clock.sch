@@ -133,9 +133,9 @@ Wire Wire Line
 	7350 2950 7350 3000
 Wire Wire Line
 	7350 2250 7350 2200
-Text HLabel 1850 4850 3    50   Input ~ 0
+Text HLabel 2600 3900 3    50   Input ~ 0
 reset
-Text HLabel 1850 3950 1    50   Input ~ 0
+Text HLabel 2200 3600 3    50   Input ~ 0
 clock_out
 $Comp
 L Device:R R?
@@ -267,7 +267,7 @@ P 1400 4400
 AR Path="/5D9AC299" Ref="R?"  Part="1" 
 AR Path="/5C8C5FC0/5D9AC299" Ref="R?"  Part="1" 
 F 0 "R?" V 1400 4400 50  0000 C CNN
-F 1 "10k" V 1284 4400 50  0000 C CNN
+F 1 "10k" V 1500 4400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1330 4400 50  0001 C CNN
 F 3 "~" H 1400 4400 50  0001 C CNN
 	1    1400 4400
@@ -342,7 +342,7 @@ Wire Wire Line
 Connection ~ 1650 4400
 Wire Wire Line
 	1650 4400 2250 4400
-Text HLabel 1850 4400 3    50   Input ~ 0
+Text HLabel 2350 3700 3    50   Input ~ 0
 hold
 Text HLabel 4000 3600 2    50   Input ~ 0
 Q0
@@ -504,7 +504,7 @@ P 1850 4600
 AR Path="/5D9D76C7" Ref="R?"  Part="1" 
 AR Path="/5C8C5FC0/5D9D76C7" Ref="R?"  Part="1" 
 F 0 "R?" V 1850 4550 50  0000 C CNN
-F 1 "100k" V 1734 4600 50  0000 C CNN
+F 1 "100k" V 1750 4700 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1780 4600 50  0001 C CNN
 F 3 "~" H 1850 4600 50  0001 C CNN
 	1    1850 4600
