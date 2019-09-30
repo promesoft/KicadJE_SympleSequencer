@@ -37,11 +37,14 @@ Designed to fit the faceplate of a Hexinverter SympleSeq E2 faceplate from Re:Sy
 
 ## Errata
 ### Errata - clock
+
+1 - Missing slave clk function
+
 ### Errata - control
 
 ## Issues and Notes
 ### Clock
-1 -
+1 - Missing silk on Jacks
 
 2 - 
 ### Control
