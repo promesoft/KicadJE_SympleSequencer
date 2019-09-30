@@ -47,14 +47,14 @@ F7 "In_2" I L 7000 1850 50
 F8 "In_1" I L 7000 1950 50 
 $EndSheet
 $Comp
-L Amplifier_Operational:TL082 U102
+L Amplifier_Operational:TL082 U101
 U 2 1 5D94A812
 P 2900 3500
-AR Path="/5D94A812" Ref="U102"  Part="2" 
+AR Path="/5D94A812" Ref="U101"  Part="2" 
 AR Path="/5C8C5FC0/5D94A812" Ref="U?"  Part="2" 
-F 0 "U102" H 2900 3133 50  0000 C CNN
+F 0 "U101" H 2900 3133 50  0000 C CNN
 F 1 "TL082" H 2900 3224 50  0000 C CNN
-F 2 "" H 2900 3500 50  0001 C CNN
+F 2 "AJ:AJ_SO-8_5.3x6.2mm_P1.27mm" H 2900 3500 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 2900 3500 50  0001 C CNN
 	2    2900 3500
 	1    0    0    1   
@@ -440,15 +440,15 @@ Wire Wire Line
 	1850 3600 2500 3600
 $Comp
 L Amplifier_Operational:TL082 U101
-U 2 1 5DB86DE6
+U 1 1 5DB86DE6
 P 2900 1650
-AR Path="/5DB86DE6" Ref="U101"  Part="2" 
+AR Path="/5DB86DE6" Ref="U101"  Part="1" 
 AR Path="/5C8C5FC0/5DB86DE6" Ref="U?"  Part="2" 
 F 0 "U101" H 2900 1283 50  0000 C CNN
 F 1 "TL082" H 2900 1374 50  0000 C CNN
-F 2 "" H 2900 1650 50  0001 C CNN
+F 2 "AJ:AJ_SO-8_5.3x6.2mm_P1.27mm" H 2900 1650 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 2900 1650 50  0001 C CNN
-	2    2900 1650
+	1    2900 1650
 	1    0    0    1   
 $EndComp
 $Comp
@@ -581,4 +581,25 @@ F 3 "~" H 3600 1650 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3750 1650 3800 1650
+$Comp
+L Amplifier_Operational:TL082 U101
+U 3 1 5DBDC612
+P 6650 6900
+AR Path="/5DBDC612" Ref="U101"  Part="3" 
+AR Path="/5C8C5FC0/5DBDC612" Ref="U?"  Part="3" 
+F 0 "U101" H 6608 6946 50  0000 L CNN
+F 1 "TL082" H 6608 6855 50  0000 L CNN
+F 2 "AJ:AJ_SO-8_5.3x6.2mm_P1.27mm" H 6650 6900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 6650 6900 50  0001 C CNN
+	3    6650 6900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 6500 6550 6600
+Wire Wire Line
+	6550 7300 6550 7200
+Text GLabel 6550 6500 1    50   Input ~ 0
++12Vc
+Text GLabel 6550 7300 3    50   Input ~ 0
+-12Vc
 $EndSCHEMATC

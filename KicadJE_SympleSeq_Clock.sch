@@ -41,19 +41,6 @@ F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4017bms-22bms
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amplifier_Operational:TL082 U?
-U 3 1 5D9A0E47
-P 8500 2600
-AR Path="/5D9A0E47" Ref="U?"  Part="3" 
-AR Path="/5C8C5FC0/5D9A0E47" Ref="U101"  Part="3" 
-F 0 "U101" H 8458 2646 50  0000 L CNN
-F 1 "TL082" H 8458 2555 50  0000 L CNN
-F 2 "" H 8500 2600 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 8500 2600 50  0001 C CNN
-	3    8500 2600
-	1    0    0    -1  
-$EndComp
-$Comp
 L Eurorack:HEADER_2x5_Doepfer P201
 U 1 1 5D9A0E4D
 P 6700 2600
@@ -71,15 +58,11 @@ Wire Wire Line
 Wire Wire Line
 	6450 2200 6850 2200
 Wire Wire Line
-	8400 2200 8400 2300
-Wire Wire Line
 	6550 2800 6450 2800
 Wire Wire Line
 	6450 2800 6450 3000
 Wire Wire Line
 	6450 3000 6850 3000
-Wire Wire Line
-	8400 3000 8400 2900
 Wire Wire Line
 	6550 2700 6550 2600
 Connection ~ 6550 2600

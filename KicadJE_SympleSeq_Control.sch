@@ -41,7 +41,7 @@ U 1 1 5D8FE28E
 P 4300 3600
 F 0 "SW304" H 4300 3885 50  0000 C CNN
 F 1 "SW_SPDT" H 4300 3794 50  0000 C CNN
-F 2 "" H 4300 3600 50  0001 C CNN
+F 2 "AJ:SP1MS1" H 4300 3600 50  0001 C CNN
 F 3 "~" H 4300 3600 50  0001 C CNN
 	1    4300 3600
 	1    0    0    -1  
@@ -58,8 +58,8 @@ L Device:R R304
 U 1 1 5D900B45
 P 4500 4650
 F 0 "R304" H 4570 4696 50  0000 L CNN
-F 1 "R" H 4570 4605 50  0000 L CNN
-F 2 "" V 4430 4650 50  0001 C CNN
+F 1 "12k" H 4570 4605 50  0000 L CNN
+F 2 "AJ:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4430 4650 50  0001 C CNN
 F 3 "~" H 4500 4650 50  0001 C CNN
 	1    4500 4650
 	1    0    0    -1  
@@ -69,7 +69,7 @@ Wire Wire Line
 Wire Wire Line
 	5000 4300 5000 4850
 Wire Wire Line
-	5000 4850 4500 4850
+	5000 4850 4750 4850
 Wire Wire Line
 	4500 4850 4500 4800
 Text HLabel 4000 3600 0    50   Input ~ 0
@@ -80,15 +80,6 @@ Text HLabel 4750 3500 2    50   Input ~ 0
 reset
 Wire Wire Line
 	4500 3500 4750 3500
-Text HLabel 5300 4150 2    50   Input ~ 0
-CV
-Text HLabel 5300 3700 2    50   Input ~ 0
-Gate
-Wire Wire Line
-	5000 3700 5300 3700
-Connection ~ 5000 3700
-Wire Wire Line
-	5300 4150 5150 4150
 $Comp
 L Device:LED D303
 U 1 1 5D902318
@@ -106,7 +97,7 @@ U 1 1 5D90232C
 P 2350 3550
 F 0 "SW303" H 2350 3835 50  0000 C CNN
 F 1 "SW_SPDT" H 2350 3744 50  0000 C CNN
-F 2 "" H 2350 3550 50  0001 C CNN
+F 2 "AJ:SP1MS1" H 2350 3550 50  0001 C CNN
 F 3 "~" H 2350 3550 50  0001 C CNN
 	1    2350 3550
 	1    0    0    -1  
@@ -123,8 +114,8 @@ L Device:R R303
 U 1 1 5D90233A
 P 2550 4600
 F 0 "R303" H 2620 4646 50  0000 L CNN
-F 1 "R" H 2620 4555 50  0000 L CNN
-F 2 "" V 2480 4600 50  0001 C CNN
+F 1 "12k" H 2620 4555 50  0000 L CNN
+F 2 "AJ:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2480 4600 50  0001 C CNN
 F 3 "~" H 2550 4600 50  0001 C CNN
 	1    2550 4600
 	1    0    0    -1  
@@ -134,7 +125,7 @@ Wire Wire Line
 Wire Wire Line
 	3050 4250 3050 4800
 Wire Wire Line
-	3050 4800 2550 4800
+	3050 4800 2800 4800
 Wire Wire Line
 	2550 4800 2550 4750
 Text HLabel 2050 3550 0    50   Input ~ 0
@@ -145,15 +136,8 @@ Text HLabel 2800 3450 2    50   Input ~ 0
 reset
 Wire Wire Line
 	2550 3450 2800 3450
-Text HLabel 3350 4100 2    50   Input ~ 0
+Text HLabel 3650 4100 2    50   Input ~ 0
 CV
-Text HLabel 3350 3650 2    50   Input ~ 0
-Gate
-Wire Wire Line
-	3050 3650 3350 3650
-Connection ~ 3050 3650
-Wire Wire Line
-	3350 4100 3200 4100
 $Comp
 L Device:LED D302
 U 1 1 5D90557F
@@ -171,7 +155,7 @@ U 1 1 5D905593
 P 4300 1750
 F 0 "SW302" H 4300 2035 50  0000 C CNN
 F 1 "SW_SPDT" H 4300 1944 50  0000 C CNN
-F 2 "" H 4300 1750 50  0001 C CNN
+F 2 "AJ:SP1MS1" H 4300 1750 50  0001 C CNN
 F 3 "~" H 4300 1750 50  0001 C CNN
 	1    4300 1750
 	1    0    0    -1  
@@ -188,8 +172,8 @@ L Device:R R302
 U 1 1 5D9055A1
 P 4500 2800
 F 0 "R302" H 4570 2846 50  0000 L CNN
-F 1 "R" H 4570 2755 50  0000 L CNN
-F 2 "" V 4430 2800 50  0001 C CNN
+F 1 "12k" H 4570 2755 50  0000 L CNN
+F 2 "AJ:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4430 2800 50  0001 C CNN
 F 3 "~" H 4500 2800 50  0001 C CNN
 	1    4500 2800
 	1    0    0    -1  
@@ -199,7 +183,7 @@ Wire Wire Line
 Wire Wire Line
 	5000 2450 5000 3000
 Wire Wire Line
-	5000 3000 4500 3000
+	5000 3000 4750 3000
 Wire Wire Line
 	4500 3000 4500 2950
 Text HLabel 4000 1750 0    50   Input ~ 0
@@ -210,15 +194,8 @@ Text HLabel 4750 1650 2    50   Input ~ 0
 reset
 Wire Wire Line
 	4500 1650 4750 1650
-Text HLabel 5300 2300 2    50   Input ~ 0
-CV
-Text HLabel 5300 1850 2    50   Input ~ 0
+Text HLabel 5600 1850 2    50   Input ~ 0
 Gate
-Wire Wire Line
-	5000 1850 5300 1850
-Connection ~ 5000 1850
-Wire Wire Line
-	5300 2300 5150 2300
 $Comp
 L Device:LED D301
 U 1 1 5D9055B8
@@ -236,7 +213,7 @@ U 1 1 5D9055CC
 P 2350 1700
 F 0 "SW301" H 2350 1985 50  0000 C CNN
 F 1 "SW_SPDT" H 2350 1894 50  0000 C CNN
-F 2 "" H 2350 1700 50  0001 C CNN
+F 2 "AJ:SP1MS1" H 2350 1700 50  0001 C CNN
 F 3 "~" H 2350 1700 50  0001 C CNN
 	1    2350 1700
 	1    0    0    -1  
@@ -253,8 +230,8 @@ L Device:R R301
 U 1 1 5D9055DA
 P 2550 2750
 F 0 "R301" H 2620 2796 50  0000 L CNN
-F 1 "R" H 2620 2705 50  0000 L CNN
-F 2 "" V 2480 2750 50  0001 C CNN
+F 1 "12k" H 2620 2705 50  0000 L CNN
+F 2 "AJ:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2480 2750 50  0001 C CNN
 F 3 "~" H 2550 2750 50  0001 C CNN
 	1    2550 2750
 	1    0    0    -1  
@@ -264,7 +241,7 @@ Wire Wire Line
 Wire Wire Line
 	3050 2400 3050 2950
 Wire Wire Line
-	3050 2950 2550 2950
+	3050 2950 2800 2950
 Wire Wire Line
 	2550 2950 2550 2900
 Text HLabel 2050 1700 0    50   Input ~ 0
@@ -275,46 +252,249 @@ Text HLabel 2800 1600 2    50   Input ~ 0
 reset
 Wire Wire Line
 	2550 1600 2800 1600
-Text HLabel 3350 2250 2    50   Input ~ 0
-CV
-Text HLabel 3350 1800 2    50   Input ~ 0
-Gate
-Wire Wire Line
-	3050 1800 3350 1800
-Connection ~ 3050 1800
-Wire Wire Line
-	3350 2250 3200 2250
 $Comp
-L Device:R_POT RV?
+L Device:R_POT RV303
 U 1 1 5DB97621
 P 3050 4100
-F 0 "RV?" H 2980 4146 50  0000 R CNN
-F 1 "CV4" H 2980 4055 50  0000 R CNN
+F 0 "RV303" H 2980 4146 50  0000 R CNN
+F 1 "CV3" H 2980 4055 50  0000 R CNN
 F 2 "AJ-Dropbox-Kicad:Potentiometer_China_RK09_Single_Vertical_AJ" H 3050 4100 50  0001 C CNN
 F 3 "~" H 3050 4100 50  0001 C CNN
 	1    3050 4100
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_POT RV?
+L Device:R_POT RV301
 U 1 1 5DB97C6D
 P 3050 2250
-F 0 "RV?" H 2980 2296 50  0000 R CNN
-F 1 "CV4" H 2980 2205 50  0000 R CNN
+F 0 "RV301" H 2980 2296 50  0000 R CNN
+F 1 "CV1" H 2980 2205 50  0000 R CNN
 F 2 "AJ-Dropbox-Kicad:Potentiometer_China_RK09_Single_Vertical_AJ" H 3050 2250 50  0001 C CNN
 F 3 "~" H 3050 2250 50  0001 C CNN
 	1    3050 2250
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_POT RV?
+L Device:R_POT RV302
 U 1 1 5DB98203
 P 5000 2300
-F 0 "RV?" H 4930 2346 50  0000 R CNN
-F 1 "CV4" H 4930 2255 50  0000 R CNN
+F 0 "RV302" H 4930 2346 50  0000 R CNN
+F 1 "CV2" H 4930 2255 50  0000 R CNN
 F 2 "AJ-Dropbox-Kicad:Potentiometer_China_RK09_Single_Vertical_AJ" H 5000 2300 50  0001 C CNN
 F 3 "~" H 5000 2300 50  0001 C CNN
 	1    5000 2300
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	3200 4100 3250 4100
+Text HLabel 5600 4150 2    50   Input ~ 0
+CV
+Wire Wire Line
+	5150 4150 5200 4150
+Text HLabel 5600 2300 2    50   Input ~ 0
+CV
+Wire Wire Line
+	5150 2300 5200 2300
+Text HLabel 3650 2250 2    50   Input ~ 0
+CV
+Wire Wire Line
+	3200 2250 3250 2250
+$Comp
+L Diode:LL4148 D307
+U 1 1 5DBAF66C
+P 3400 2250
+F 0 "D307" H 3400 2034 50  0000 C CNN
+F 1 "LL4148" H 3400 2125 50  0000 C CNN
+F 2 "Diode_SMD:D_MiniMELF" H 3400 2075 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 3400 2250 50  0001 C CNN
+	1    3400 2250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3550 2250 3650 2250
+$Comp
+L Diode:LL4148 D308
+U 1 1 5DBAFFD5
+P 5350 2300
+F 0 "D308" H 5350 2084 50  0000 C CNN
+F 1 "LL4148" H 5350 2175 50  0000 C CNN
+F 2 "Diode_SMD:D_MiniMELF" H 5350 2125 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 5350 2300 50  0001 C CNN
+	1    5350 2300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5500 2300 5600 2300
+$Comp
+L Diode:LL4148 D311
+U 1 1 5DBB07FC
+P 3400 4100
+F 0 "D311" H 3400 3884 50  0000 C CNN
+F 1 "LL4148" H 3400 3975 50  0000 C CNN
+F 2 "Diode_SMD:D_MiniMELF" H 3400 3925 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 3400 4100 50  0001 C CNN
+	1    3400 4100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3550 4100 3650 4100
+$Comp
+L Diode:LL4148 D312
+U 1 1 5DBB0DCD
+P 5350 4150
+F 0 "D312" H 5350 3934 50  0000 C CNN
+F 1 "LL4148" H 5350 4025 50  0000 C CNN
+F 2 "Diode_SMD:D_MiniMELF" H 5350 3975 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 5350 4150 50  0001 C CNN
+	1    5350 4150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5500 4150 5600 4150
+Wire Wire Line
+	5000 1850 5200 1850
+Connection ~ 5000 1850
+$Comp
+L Diode:LL4148 D306
+U 1 1 5DBB2A8F
+P 5350 1850
+F 0 "D306" H 5350 1634 50  0000 C CNN
+F 1 "LL4148" H 5350 1725 50  0000 C CNN
+F 2 "Diode_SMD:D_MiniMELF" H 5350 1675 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 5350 1850 50  0001 C CNN
+	1    5350 1850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5500 1850 5600 1850
+Text HLabel 3650 1800 2    50   Input ~ 0
+Gate
+Wire Wire Line
+	3050 1800 3250 1800
+$Comp
+L Diode:LL4148 D305
+U 1 1 5DBB4E92
+P 3400 1800
+F 0 "D305" H 3400 1584 50  0000 C CNN
+F 1 "LL4148" H 3400 1675 50  0000 C CNN
+F 2 "Diode_SMD:D_MiniMELF" H 3400 1625 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 3400 1800 50  0001 C CNN
+	1    3400 1800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3550 1800 3650 1800
+Connection ~ 3050 1800
+Text HLabel 3650 3650 2    50   Input ~ 0
+Gate
+Wire Wire Line
+	3050 3650 3250 3650
+$Comp
+L Diode:LL4148 D309
+U 1 1 5DBB850D
+P 3400 3650
+F 0 "D309" H 3400 3434 50  0000 C CNN
+F 1 "LL4148" H 3400 3525 50  0000 C CNN
+F 2 "Diode_SMD:D_MiniMELF" H 3400 3475 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 3400 3650 50  0001 C CNN
+	1    3400 3650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3550 3650 3650 3650
+Connection ~ 3050 3650
+Text HLabel 5600 3700 2    50   Input ~ 0
+Gate
+Wire Wire Line
+	5000 3700 5200 3700
+$Comp
+L Diode:LL4148 D310
+U 1 1 5DBBAF5F
+P 5350 3700
+F 0 "D310" H 5350 3484 50  0000 C CNN
+F 1 "LL4148" H 5350 3575 50  0000 C CNN
+F 2 "Diode_SMD:D_MiniMELF" H 5350 3525 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 5350 3700 50  0001 C CNN
+	1    5350 3700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5500 3700 5600 3700
+Connection ~ 5000 3700
+$Comp
+L Envelope-cache-2018-08-04-13-00-04:GND #PWR?
+U 1 1 5DBBED4F
+P 2800 4900
+AR Path="/5DBBED4F" Ref="#PWR?"  Part="1" 
+AR Path="/5C8C5FC0/5DBBED4F" Ref="#PWR?"  Part="1" 
+AR Path="/5C8BFBBC/5DBBED4F" Ref="#PWR0111"  Part="1" 
+F 0 "#PWR0111" H 2800 4650 50  0001 C CNN
+F 1 "GND" H 2805 4727 50  0000 C CNN
+F 2 "" H 2800 4900 50  0001 C CNN
+F 3 "" H 2800 4900 50  0001 C CNN
+	1    2800 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 4900 2800 4800
+Connection ~ 2800 4800
+Wire Wire Line
+	2800 4800 2550 4800
+$Comp
+L Envelope-cache-2018-08-04-13-00-04:GND #PWR?
+U 1 1 5DBC3141
+P 4750 4950
+AR Path="/5DBC3141" Ref="#PWR?"  Part="1" 
+AR Path="/5C8C5FC0/5DBC3141" Ref="#PWR?"  Part="1" 
+AR Path="/5C8BFBBC/5DBC3141" Ref="#PWR0112"  Part="1" 
+F 0 "#PWR0112" H 4750 4700 50  0001 C CNN
+F 1 "GND" H 4755 4777 50  0000 C CNN
+F 2 "" H 4750 4950 50  0001 C CNN
+F 3 "" H 4750 4950 50  0001 C CNN
+	1    4750 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 4950 4750 4850
+Connection ~ 4750 4850
+Wire Wire Line
+	4750 4850 4500 4850
+$Comp
+L Envelope-cache-2018-08-04-13-00-04:GND #PWR?
+U 1 1 5DBC5FC5
+P 2800 3050
+AR Path="/5DBC5FC5" Ref="#PWR?"  Part="1" 
+AR Path="/5C8C5FC0/5DBC5FC5" Ref="#PWR?"  Part="1" 
+AR Path="/5C8BFBBC/5DBC5FC5" Ref="#PWR0113"  Part="1" 
+F 0 "#PWR0113" H 2800 2800 50  0001 C CNN
+F 1 "GND" H 2805 2877 50  0000 C CNN
+F 2 "" H 2800 3050 50  0001 C CNN
+F 3 "" H 2800 3050 50  0001 C CNN
+	1    2800 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 3050 2800 2950
+$Comp
+L Envelope-cache-2018-08-04-13-00-04:GND #PWR?
+U 1 1 5DBC7396
+P 4750 3100
+AR Path="/5DBC7396" Ref="#PWR?"  Part="1" 
+AR Path="/5C8C5FC0/5DBC7396" Ref="#PWR?"  Part="1" 
+AR Path="/5C8BFBBC/5DBC7396" Ref="#PWR0114"  Part="1" 
+F 0 "#PWR0114" H 4750 2850 50  0001 C CNN
+F 1 "GND" H 4755 2927 50  0000 C CNN
+F 2 "" H 4750 3100 50  0001 C CNN
+F 3 "" H 4750 3100 50  0001 C CNN
+	1    4750 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 3100 4750 3000
+Connection ~ 2800 2950
+Wire Wire Line
+	2800 2950 2550 2950
+Connection ~ 4750 3000
+Wire Wire Line
+	4750 3000 4500 3000
 $EndSCHEMATC
