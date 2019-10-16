@@ -8,15 +8,15 @@ Designed to fit the faceplate of a Hexinverter SympleSeq E2 faceplate from Re:Sy
 # Purpose
 1 - Match Hexinverter sch with Resynthesis panel
 
-# Status - ordered
+# Status - in the mail
 ## Initial 
 | Stage  | Detail | Status |
 | ------------- | ------------- | ------------- |
 | create material  | sch/pcb | OK  |
 | | gerber | OK |
-| production  |   | ordered |
-|  | produced |  |
-|  | delivered |  |
+| production  |   | ok |
+|  | produced | ok |
+|  | delivered | in the mail |
 
 ## Preliminary validation
 | Test  | Detail | Status |
