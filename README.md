@@ -39,6 +39,7 @@ Designed to fit the faceplate of a Hexinverter SympleSeq E2 faceplate from Re:Sy
 ### Errata - clock
 
 1 - Missing slave clk function
+2 - D310 not connected to G8 output
 
 ### Errata - control
 
