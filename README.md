@@ -16,20 +16,25 @@ Designed to fit the faceplate of a Hexinverter SympleSeq E2 faceplate from Re:Sy
 | | gerber | OK |
 | production  |   | ok |
 |  | produced | ok |
-|  | delivered | in the mail |
+|  | delivered | ok |
 
 ## Preliminary validation
 | Test  | Detail | Status |
 | ------------- | ------------- | ------------- |
-| Initial Inspection | |  |
-| Initial Technical Test |  | |
-| Initial Product Test |  | |
+| Initial Inspection | | ok - the jacks are 0,5-1mm too far away from the edge |
+| Initial Technical Test |  | ok |
+| Initial Product Test |  | ok |
 
 ## Secondary validation
 | Test  | Detail | Status |
 | ------------- | ------------- |------------- |
-| Product Test |  | |
-| Product Test |  |  |
+| Product Test | CV | ok |
+| Product Test | Gate | See errata |
+| Product Test | Clock internal | ok - a bit slow |
+| Product Test | Clock in | ok |
+| Product Test | Clock out |  |
+| Product Test | Reset In/Button |  |
+| Product Test | Hold In/Button |  |
 | Quality | | |
 | Quality |  |  |
 | Long Term Product Test |  |  |
