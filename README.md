@@ -42,6 +42,7 @@ Designed to fit the faceplate of a Hexinverter SympleSeq E2 faceplate from Re:Sy
 2 - D310 not connected to G8 output
 3 - Switches upside down (still works just opposite the faceplate signs)
 4 - Gate signal becomes glide if two adjacent notes are on (never goes to 0V)
+5 - Hold works - but can be a bit jumpy if clocked faster than clk
 
 ### Errata - control
 
