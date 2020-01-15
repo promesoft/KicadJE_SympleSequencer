@@ -22,7 +22,7 @@ Designed to fit the faceplate of a Hexinverter SympleSeq E2 faceplate from Re:Sy
 | Test  | Detail | Status |
 | ------------- | ------------- | ------------- |
 | Initial Inspection | clock board| ok - the jacks are 0,5-1mm too far away from the edge |
-| Initial Inspection | control board | ok - switches are flipped |
+| Initial Inspection | control board | ok - see errata 3 |
 | Initial Technical Test |  | ok |
 | Initial Product Test |  | ok |
 
@@ -30,7 +30,7 @@ Designed to fit the faceplate of a Hexinverter SympleSeq E2 faceplate from Re:Sy
 | Test  | Detail | Status |
 | ------------- | ------------- |------------- |
 | Product Test | CV | ok |
-| Product Test | Gate | See errata |
+| Product Test | Gate | See errata 4|
 | Product Test | Clock internal | ok - a bit slow |
 | Product Test | Clock in | ok |
 | Product Test | Clock out |  |
@@ -44,11 +44,12 @@ Designed to fit the faceplate of a Hexinverter SympleSeq E2 faceplate from Re:Sy
 ## Errata
 ### Errata - clock
 
-1 - Missing slave clk function
-2 - D310 not connected to G8 output
-3 - Switches upside down (still works just opposite the faceplate signs)
-4 - Gate signal becomes glide if two adjacent notes are on (never goes to 0V)
-5 - Hold works - but can be a bit jumpy if clocked faster than clk
+### 1 - Missing slave clk function
+### 2 - D310 not connected to G8 output
+### 3 - Switches upside down (still works just opposite the faceplate signs)
+### 4 - Gate signal becomes glide if two adjacent notes are on (never goes to 0V)
+### 5 - Hold works - but can be a bit jumpy if clocked faster than clk
+### 6 - Switches in reset works one at the time. Mutliselect becomes strange
 
 ### Errata - control
 
