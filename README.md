@@ -21,7 +21,8 @@ Designed to fit the faceplate of a Hexinverter SympleSeq E2 faceplate from Re:Sy
 ## Preliminary validation
 | Test  | Detail | Status |
 | ------------- | ------------- | ------------- |
-| Initial Inspection | | ok - the jacks are 0,5-1mm too far away from the edge |
+| Initial Inspection | clock board| ok - the jacks are 0,5-1mm too far away from the edge |
+| Initial Inspection | control board | ok - switches are flipped |
 | Initial Technical Test |  | ok |
 | Initial Product Test |  | ok |
 
