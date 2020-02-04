@@ -33,24 +33,25 @@ Designed to fit the faceplate of a Hexinverter SympleSeq E2 faceplate from Re:Sy
 | Product Test | Gate | See errata 4|
 | Product Test | Clock internal | ok - a bit slow |
 | Product Test | Clock in | ok |
-| Product Test | Clock out |  |
-| Product Test | Reset In/Button |  |
-| Product Test | Hold In/Button |  |
-| Quality | | |
-| Quality |  |  |
-| Long Term Product Test |  |  |
+| Product Test | Clock out | ok - could need a buffer |
+| Product Test | Reset In/Button | ok |
+| Product Test | Hold In/Button | ok - needs debounce |
+| Quality | CV | Good |
+| Quality | Gate | No good - needs shorter pulses |
+| Long Term Product Test |  | Good |
 | Power Draw |  | 
 
 ## Errata
 ### Errata - clock
-#### 1 - Missing slave clk function
-#### 4 - Gate signal becomes glide if two adjacent notes are on (never goes to 0V)
+#### 1 - Missing slave clk function (add diode or buffer - consider val of  R204 on master)
+#### 4 - Gate signal becomes glide if two adjacent notes are on (never goes to 0V - consider AC couple)
 #### 5 - Hold works - but can be a bit jumpy if clocked faster than clk
+#### 7 - Hold button needs debounce
 
 ### Errata - control
 #### 2 - D310 not connected to G8 output
 #### 3 - Switches upside down (still works just opposite the faceplate signs)
-#### 6 - Switches in reset works one at the time. Mutliselect becomes strange
+#### 6 - Switches in reset works one at the time. Mutliselect becomes strange (diode missing)
 
 ## Issues and Notes
 ### Clock
