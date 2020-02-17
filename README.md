@@ -46,7 +46,7 @@ Designed to fit the faceplate of a Hexinverter SympleSeq E2 faceplate from Re:Sy
 #### 1 - Missing slave clk function (add diode or buffer - consider val of  R204 on master)
 #### 4 - Gate signal becomes glide if two adjacent notes are on (never goes to 0V - consider AC couple)
 #### 5 - Hold works - but can be a bit jumpy if clocked faster than clk
-#### 7 - Hold button needs debounce
+#### 7 - Hold button needs debounce (47nF?)
 
 ### Errata - control
 #### 2 - D310 not connected to G8 output
