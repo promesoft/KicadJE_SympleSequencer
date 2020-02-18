@@ -69,7 +69,7 @@ Designed to fit the faceplate of a Hexinverter SympleSeq E2 faceplate from Re:Sy
 
 # Pictures
 
-![]()
+![](KicadJE_SympleSeq_Top1.png)
 
 # Inspiration from 
 Counter module in https://github.com/promesoft/KicadJE_EffectsUnit1
