@@ -65,7 +65,7 @@ Designed to fit the faceplate of a Hexinverter SympleSeq E2 faceplate from Re:Sy
  - LM555
  - Jack connectors: PJ-324M (important for the footprint)
 # Schematics
-![https://github.com/promesoft/KicadJE_SympleSequencer/blob/master/KicadJE_SympleSequencer_SCH_sounter.png]()
+![](KicadJE_SympleSequencer_SCH_sounter.png)
 
 # Pictures
 
