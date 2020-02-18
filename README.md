@@ -8,7 +8,7 @@ Designed to fit the faceplate of a Hexinverter SympleSeq E2 faceplate from Re:Sy
 # Purpose
 1 - Match Hexinverter sch with Resynthesis panel
 
-# Status - in the mail
+# Status - Installed in rack - tweaking
 ## Initial 
 | Stage  | Detail | Status |
 | ------------- | ------------- | ------------- |
@@ -64,9 +64,11 @@ Designed to fit the faceplate of a Hexinverter SympleSeq E2 faceplate from Re:Sy
  - CD4017
  - LM555
  - Jack connectors: PJ-324M (important for the footprint)
+# Schematics
+![https://github.com/promesoft/KicadJE_SympleSequencer/blob/master/KicadJE_SympleSequencer_SCH_sounter.png]()
 
 # Pictures
-![]()
+
 ![]()
 
 # Inspiration from 
