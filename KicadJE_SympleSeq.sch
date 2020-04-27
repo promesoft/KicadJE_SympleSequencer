@@ -408,7 +408,7 @@ $EndComp
 Wire Wire Line
 	3500 3600 3500 3950
 Wire Wire Line
-	1850 3600 2500 3600
+	1850 3600 2100 3600
 $Comp
 L Amplifier_Operational:TL082 U101
 U 1 1 5DB86DE6
@@ -752,4 +752,17 @@ F 3 "~" H 6750 4700 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6850 4700 7000 4700
+$Comp
+L Device:C_Small C?
+U 1 1 5EAA1054
+P 2200 3600
+F 0 "C?" V 2175 3725 50  0000 C CNN
+F 1 "100n" V 2175 3475 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2200 3600 50  0001 C CNN
+F 3 "~" H 2200 3600 50  0001 C CNN
+	1    2200 3600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2300 3600 2500 3600
 $EndSCHEMATC
