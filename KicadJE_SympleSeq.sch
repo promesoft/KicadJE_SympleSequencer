@@ -128,7 +128,7 @@ F 3 "" H 2500 4100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2500 4100 2500 4000
+	2500 4100 2500 4075
 Wire Wire Line
 	2500 3700 2500 3600
 Connection ~ 2500 3600
@@ -596,8 +596,6 @@ Connection ~ 5950 2550
 Wire Wire Line
 	6625 3200 7000 3200
 Wire Wire Line
-	6625 3300 6975 3300
-Wire Wire Line
 	6575 3700 6650 3700
 Wire Wire Line
 	6575 3900 6650 3900
@@ -613,39 +611,12 @@ Wire Wire Line
 	6575 4700 6650 4700
 Wire Wire Line
 	6900 4300 6900 3600
-Connection ~ 6900 3600
 Wire Wire Line
 	6900 3600 7000 3600
 Wire Wire Line
 	6575 4300 6600 4300
 Wire Wire Line
 	6575 3600 6600 3600
-$Comp
-L Device:R R?
-U 1 1 5EA9CB60
-P 6750 3600
-AR Path="/5EA9CB60" Ref="R?"  Part="1" 
-AR Path="/5C8C5FC0/5EA9CB60" Ref="R?"  Part="1" 
-F 0 "R?" V 6700 3750 50  0000 C CNN
-F 1 "1k" V 6750 3600 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6680 3600 50  0001 C CNN
-F 3 "~" H 6750 3600 50  0001 C CNN
-	1    6750 3600
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5EA9CD71
-P 6750 4300
-AR Path="/5EA9CD71" Ref="R?"  Part="1" 
-AR Path="/5C8C5FC0/5EA9CD71" Ref="R?"  Part="1" 
-F 0 "R?" V 6700 4450 50  0000 C CNN
-F 1 "1k" V 6750 4300 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6680 4300 50  0001 C CNN
-F 3 "~" H 6750 4300 50  0001 C CNN
-	1    6750 4300
-	0    1    1    0   
-$EndComp
 $Comp
 L Device:C_Small C?
 U 1 1 5EA9D3AA
@@ -764,5 +735,59 @@ F 3 "~" H 2200 3600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2300 3600 2500 3600
+	2300 3600 2350 3600
+Wire Wire Line
+	6625 3300 7000 3300
+$Comp
+L Diode:LL4148 D?
+U 1 1 5EBDB059
+P 6750 4300
+AR Path="/5C8BFBBC/5EBDB059" Ref="D?"  Part="1" 
+AR Path="/5EBDB059" Ref="D?"  Part="1" 
+F 0 "D?" H 6925 4275 50  0000 C CNN
+F 1 "LL4148" H 6550 4250 50  0000 C CNN
+F 2 "Diode_SMD:D_MiniMELF" H 6750 4125 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 6750 4300 50  0001 C CNN
+	1    6750 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:LL4148 D?
+U 1 1 5EBDDE8B
+P 6750 3600
+AR Path="/5C8BFBBC/5EBDDE8B" Ref="D?"  Part="1" 
+AR Path="/5EBDDE8B" Ref="D?"  Part="1" 
+F 0 "D?" H 6925 3575 50  0000 C CNN
+F 1 "LL4148" H 6550 3550 50  0000 C CNN
+F 2 "Diode_SMD:D_MiniMELF" H 6750 3425 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 6750 3600 50  0001 C CNN
+	1    6750 3600
+	-1   0    0    1   
+$EndComp
+Connection ~ 6900 3600
+$Comp
+L Device:D_Zener_ALT D?
+U 1 1 5EBE23F1
+P 2350 3850
+AR Path="/5C8BFBBC/5EBE23F1" Ref="D?"  Part="1" 
+AR Path="/5EBE23F1" Ref="D?"  Part="1" 
+F 0 "D?" H 2600 3775 50  0000 C CNN
+F 1 "5V1 Opt" H 2350 3750 50  0000 C CNN
+F 2 "Diode_SMD:D_MiniMELF" H 2350 3675 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 2350 3850 50  0001 C CNN
+	1    2350 3850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2350 4000 2350 4075
+Wire Wire Line
+	2350 4075 2500 4075
+Connection ~ 2500 4075
+Wire Wire Line
+	2500 4075 2500 4000
+Wire Wire Line
+	2350 3700 2350 3600
+Connection ~ 2350 3600
+Wire Wire Line
+	2350 3600 2500 3600
 $EndSCHEMATC
