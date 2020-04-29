@@ -1,4 +1,4 @@
-16314340645639520
+16314468868490376
 AJ
 AJ_SO-8_5.3x6.2mm_P1.27mm
 8-Lead Plastic Small Outline, 5.3x6.2mm Body (http://www.ti.com.cn/cn/lit/ds/symlink/tl7705a.pdf)
@@ -28,7 +28,7 @@ CP Radial series Radial pin pitch 2.50mm  diameter 5mm Electrolytic Capacitor
 2
 2
 AJ
-C_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+C_0805_AJ
 Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
 capacitor handsolder
 0
@@ -42,7 +42,7 @@ THT DIP DIL PDIP 2.54mm 7.62mm 300mil
 16
 16
 AJ
-D_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+D_0805_AJ
 Diode SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
 diode handsolder
 0
@@ -252,7 +252,7 @@ Potentiometer vertical Alps RK09K Single
 3
 3
 AJ
-R_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+R_0805_AJ
 Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
 resistor handsolder
 0
