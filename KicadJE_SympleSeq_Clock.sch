@@ -464,55 +464,16 @@ Wire Wire Line
 Wire Wire Line
 	1650 5050 1650 5200
 Connection ~ 1650 4850
-$Comp
-L Device:LED D?
-U 1 1 5D9DC97C
-P 1850 5200
-AR Path="/5C8BFBBC/5D9DC97C" Ref="D?"  Part="1" 
-AR Path="/5C8C5FC0/5D9DC97C" Ref="D205"  Part="1" 
-F 0 "D205" V 2100 5200 50  0000 R CNN
-F 1 "5817" V 2000 5200 50  0000 R CNN
-F 2 "LED_SMD:LED_0805_2012Metric" H 1850 5200 50  0001 C CNN
-F 3 "~" H 1850 5200 50  0001 C CNN
-	1    1850 5200
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	2000 5200 2050 5200
 Wire Wire Line
 	2050 5200 2050 5050
 Wire Wire Line
 	1700 5200 1650 5200
-$Comp
-L Device:LED D?
-U 1 1 5D9E8314
-P 1800 3350
-AR Path="/5C8BFBBC/5D9E8314" Ref="D?"  Part="1" 
-AR Path="/5C8C5FC0/5D9E8314" Ref="D201"  Part="1" 
-F 0 "D201" V 2050 3350 50  0000 R CNN
-F 1 "5817" V 1950 3350 50  0000 R CNN
-F 2 "LED_SMD:LED_0805_2012Metric" H 1800 3350 50  0001 C CNN
-F 3 "~" H 1800 3350 50  0001 C CNN
-	1    1800 3350
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	1800 3200 1800 3150
 Wire Wire Line
 	1800 3150 1650 3150
-$Comp
-L Device:LED D?
-U 1 1 5D9EB48D
-P 1400 5050
-AR Path="/5C8BFBBC/5D9EB48D" Ref="D?"  Part="1" 
-AR Path="/5C8C5FC0/5D9EB48D" Ref="D206"  Part="1" 
-F 0 "D206" V 1650 5050 50  0000 R CNN
-F 1 "5817" V 1550 5050 50  0000 R CNN
-F 2 "LED_SMD:LED_0805_2012Metric" H 1400 5050 50  0001 C CNN
-F 3 "~" H 1400 5050 50  0001 C CNN
-	1    1400 5050
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	1550 5050 1650 5050
 Wire Wire Line
@@ -522,36 +483,10 @@ Wire Wire Line
 Connection ~ 1150 5050
 Wire Wire Line
 	1150 5050 1150 5200
-$Comp
-L Device:LED D?
-U 1 1 5D9F8118
-P 1400 3850
-AR Path="/5C8BFBBC/5D9F8118" Ref="D?"  Part="1" 
-AR Path="/5C8C5FC0/5D9F8118" Ref="D202"  Part="1" 
-F 0 "D202" H 1600 3850 50  0000 R CNN
-F 1 "5817" H 1600 3750 50  0000 R CNN
-F 2 "LED_SMD:LED_0805_2012Metric" H 1400 3850 50  0001 C CNN
-F 3 "~" H 1400 3850 50  0001 C CNN
-	1    1400 3850
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	1550 3850 1650 3850
 Wire Wire Line
 	1250 3850 1150 3850
-$Comp
-L Device:LED D?
-U 1 1 5D9FFDB2
-P 1950 4200
-AR Path="/5C8BFBBC/5D9FFDB2" Ref="D?"  Part="1" 
-AR Path="/5C8C5FC0/5D9FFDB2" Ref="D204"  Part="1" 
-F 0 "D204" H 2150 4200 50  0000 R CNN
-F 1 "5817" H 2150 4100 50  0000 R CNN
-F 2 "LED_SMD:LED_0805_2012Metric" H 1950 4200 50  0001 C CNN
-F 3 "~" H 1950 4200 50  0001 C CNN
-	1    1950 4200
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	1950 4350 1950 4400
 Wire Wire Line
@@ -563,19 +498,6 @@ Wire Wire Line
 Wire Wire Line
 	1650 3150 1650 3100
 Connection ~ 1650 3150
-$Comp
-L Device:LED D?
-U 1 1 5DA158FD
-P 1400 4300
-AR Path="/5C8BFBBC/5DA158FD" Ref="D?"  Part="1" 
-AR Path="/5C8C5FC0/5DA158FD" Ref="D203"  Part="1" 
-F 0 "D203" H 1600 4300 50  0000 R CNN
-F 1 "5817" H 1600 4200 50  0000 R CNN
-F 2 "LED_SMD:LED_0805_2012Metric" H 1400 4300 50  0001 C CNN
-F 3 "~" H 1400 4300 50  0001 C CNN
-	1    1400 4300
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	1250 4300 1150 4300
 Connection ~ 1150 4300
@@ -1014,4 +936,82 @@ Wire Wire Line
 Connection ~ 1425 4750
 Wire Wire Line
 	1425 4750 1150 4750
+$Comp
+L Diode:LL4148 D?
+U 1 1 5EBEA1D6
+P 1800 3350
+AR Path="/5C8BFBBC/5EBEA1D6" Ref="D?"  Part="1" 
+AR Path="/5C8C5FC0/5EBEA1D6" Ref="D?"  Part="1" 
+F 0 "D?" H 1900 3550 50  0000 C CNN
+F 1 "1N4007" H 1800 3475 50  0000 C CNN
+F 2 "Diode_SMD:D_MiniMELF" H 1800 3175 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 1800 3350 50  0001 C CNN
+	1    1800 3350
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:LL4148 D?
+U 1 1 5EBEB078
+P 1950 4200
+AR Path="/5C8BFBBC/5EBEB078" Ref="D?"  Part="1" 
+AR Path="/5C8C5FC0/5EBEB078" Ref="D?"  Part="1" 
+F 0 "D?" H 2050 4400 50  0000 C CNN
+F 1 "1N4007" H 1950 4325 50  0000 C CNN
+F 2 "Diode_SMD:D_MiniMELF" H 1950 4025 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 1950 4200 50  0001 C CNN
+	1    1950 4200
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:LL4148 D?
+U 1 1 5EBEBAE3
+P 1400 3850
+AR Path="/5C8BFBBC/5EBEBAE3" Ref="D?"  Part="1" 
+AR Path="/5C8C5FC0/5EBEBAE3" Ref="D?"  Part="1" 
+F 0 "D?" H 1575 3800 50  0000 C CNN
+F 1 "1N4007" H 1200 3800 50  0000 C CNN
+F 2 "Diode_SMD:D_MiniMELF" H 1400 3675 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 1400 3850 50  0001 C CNN
+	1    1400 3850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:LL4148 D?
+U 1 1 5EBECD23
+P 1400 4300
+AR Path="/5C8BFBBC/5EBECD23" Ref="D?"  Part="1" 
+AR Path="/5C8C5FC0/5EBECD23" Ref="D?"  Part="1" 
+F 0 "D?" H 1550 4225 50  0000 C CNN
+F 1 "1N4007" H 1300 4225 50  0000 C CNN
+F 2 "Diode_SMD:D_MiniMELF" H 1400 4125 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 1400 4300 50  0001 C CNN
+	1    1400 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:LL4148 D?
+U 1 1 5EBED263
+P 1400 5050
+AR Path="/5C8BFBBC/5EBED263" Ref="D?"  Part="1" 
+AR Path="/5C8C5FC0/5EBED263" Ref="D?"  Part="1" 
+F 0 "D?" H 1600 4950 50  0000 C CNN
+F 1 "1N4007" H 1325 4950 50  0000 C CNN
+F 2 "Diode_SMD:D_MiniMELF" H 1400 4875 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 1400 5050 50  0001 C CNN
+	1    1400 5050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:LL4148 D?
+U 1 1 5EBED6F5
+P 1850 5200
+AR Path="/5C8BFBBC/5EBED6F5" Ref="D?"  Part="1" 
+AR Path="/5C8C5FC0/5EBED6F5" Ref="D?"  Part="1" 
+F 0 "D?" H 1950 5400 50  0000 C CNN
+F 1 "1N4007" H 1850 5325 50  0000 C CNN
+F 2 "Diode_SMD:D_MiniMELF" H 1850 5025 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 1850 5200 50  0001 C CNN
+	1    1850 5200
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
