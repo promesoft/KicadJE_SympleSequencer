@@ -1053,4 +1053,6 @@ $EndComp
 Connection ~ 8150 3000
 Wire Wire Line
 	8150 3000 8325 3000
+Text Label 2875 3600 0    50   ~ 0
+clk
 $EndSCHEMATC
