@@ -8,6 +8,62 @@ Designed to fit the faceplate of a Hexinverter SympleSeq E2 faceplate from Re:Sy
 # Purpose
 1 - Match Hexinverter sch with Resynthesis panel
 
+# Rev 2
+
+# Status - Delivered
+## Initial 
+| Stage  | Detail | Status |
+| ------------- | ------------- | ------------- |
+| create material  | sch/pcb | OK  |
+| | gerber | OK |
+| production  |   | ok |
+|  | produced | ok |
+|  | delivered | ok |
+
+## Preliminary validation
+| Test  | Detail | Status |
+| ------------- | ------------- | ------------- |
+| Initial Inspection | clock board|  |
+| Initial Inspection | control board |  |
+| Initial Technical Test |  |  |
+| Initial Product Test |  |  |
+
+## Secondary validation
+| Test  | Detail | Status |
+| ------------- | ------------- |------------- |
+| Product Test | CV |  |
+| Product Test | Gate | |
+| Product Test | Clock internal |  |
+| Product Test | Clock in |  |
+| Product Test | Clock out |  |
+| Product Test | Reset In/Button |  |
+| Product Test | Hold In/Button |  |
+| Quality | CV |  |
+| Quality | Gate |  |
+| Long Term Product Test |  | Good |
+| Power Draw |  | 
+
+## Errata
+### Errata - clock
+#### 
+### Errata - control
+#### 
+
+## Issues and Notes
+### Clock
+1 -  
+2 -  
+### Control
+
+# Schematics
+![](KicadJE_SympleSequencer_SCH_sounter_2.png)
+
+# Pictures
+
+![](KicadJE_SympleSeq_rev2_Top1.png)
+
+# Rev 1
+
 # Status - Installed in rack - tweaking
 ## Initial 
 | Stage  | Detail | Status |
