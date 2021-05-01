@@ -56,11 +56,12 @@ Designed to fit the faceplate of a Hexinverter SympleSeq E2 faceplate from Re:Sy
 ### Control
 
 # Schematics
-![](KicadJE_SympleSequencer_SCH_sounter_2.png)
-
+![](KicadJE_SympleSequencer_SCH_CLK_RevB.png)
+![](KicadJE_SympleSequencer_SCH_Ctrl_RevB.png)
+![](KicadJE_SympleSequencer_SCH_RevB.png)
 # Pictures
 
-![](KicadJE_SympleSeq_rev2_Top1.png)
+![](KicadJE_SympleSeq_RevB.png)
 
 # Rev 1
 
