@@ -10,7 +10,7 @@ Designed to fit the faceplate of a Hexinverter SympleSeq E2 faceplate from Re:Sy
 
 # Rev 2
 
-# Status - Delivered
+# Status - Mouted - testing
 ## Initial 
 | Stage  | Detail | Status |
 | ------------- | ------------- | ------------- |
@@ -23,10 +23,10 @@ Designed to fit the faceplate of a Hexinverter SympleSeq E2 faceplate from Re:Sy
 ## Preliminary validation
 | Test  | Detail | Status |
 | ------------- | ------------- | ------------- |
-| Initial Inspection | clock board|  |
-| Initial Inspection | control board |  |
-| Initial Technical Test |  |  |
-| Initial Product Test |  |  |
+| Initial Inspection | clock board| ok |
+| Initial Inspection | control board | ok  |
+| Initial Technical Test |  | 100n capacitors in series w output is replaced w 2k |
+| Initial Product Test |  | ongoing |
 
 ## Secondary validation
 | Test  | Detail | Status |
@@ -45,7 +45,7 @@ Designed to fit the faceplate of a Hexinverter SympleSeq E2 faceplate from Re:Sy
 
 ## Errata
 ### Errata - clock
-#### 
+#### Series capacitors not working with reset (overloads CD4017) - replace w resistors
 ### Errata - control
 #### 
 
@@ -54,6 +54,7 @@ Designed to fit the faceplate of a Hexinverter SympleSeq E2 faceplate from Re:Sy
 1 -  
 2 -  
 ### Control
+1 - switches still reversed  
 
 # Schematics
 ![](KicadJE_SympleSequencer_SCH_CLK_RevB.png)
