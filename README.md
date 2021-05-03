@@ -56,6 +56,7 @@ Designed to fit the faceplate of a Hexinverter SympleSeq E2 faceplate from Re:Sy
 2 -  
 ### Control
 1 - switches still reversed  
+2 - diode missing for reset  
 
 # Schematics
 ![](KicadJE_SympleSequencer_SCH_CLK_RevB.png)
