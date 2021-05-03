@@ -47,6 +47,8 @@ Designed to fit the faceplate of a Hexinverter SympleSeq E2 faceplate from Re:Sy
 ## Errata
 ### Errata - clock
 #### Series capacitors not working with reset (overloads CD4017) - replace w resistors
+#### Hold not working 
+Either swap R206 100k pullup with 22k-47k and R212 10k with 100k or tie hold to +12v works
 ### Errata - control
 #### 
 
@@ -59,6 +61,7 @@ Designed to fit the faceplate of a Hexinverter SympleSeq E2 faceplate from Re:Sy
 ### Control
 1 - switches still reversed  
 2 - diode missing for reset  
+3 - consider moving resistors from clk module to control as there is plenty of room  
 
 # Schematics
 ![](KicadJE_SympleSequencer_SCH_CLK_RevB.png)
