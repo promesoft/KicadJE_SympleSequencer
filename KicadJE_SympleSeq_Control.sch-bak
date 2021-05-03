@@ -422,7 +422,7 @@ Wire Wire Line
 	5500 3700 5600 3700
 Connection ~ 5000 3700
 $Comp
-L Envelope-cache-2018-08-04-13-00-04:GND #PWR?
+L KicadJE_SympleSeq-rescue:GND-Envelope-cache-2018-08-04-13-00-04 #PWR?
 U 1 1 5DBBED4F
 P 2800 4900
 AR Path="/5DBBED4F" Ref="#PWR?"  Part="1" 
@@ -441,7 +441,7 @@ Connection ~ 2800 4800
 Wire Wire Line
 	2800 4800 2550 4800
 $Comp
-L Envelope-cache-2018-08-04-13-00-04:GND #PWR?
+L KicadJE_SympleSeq-rescue:GND-Envelope-cache-2018-08-04-13-00-04 #PWR?
 U 1 1 5DBC3141
 P 4750 4950
 AR Path="/5DBC3141" Ref="#PWR?"  Part="1" 
@@ -460,7 +460,7 @@ Connection ~ 4750 4850
 Wire Wire Line
 	4750 4850 4500 4850
 $Comp
-L Envelope-cache-2018-08-04-13-00-04:GND #PWR?
+L KicadJE_SympleSeq-rescue:GND-Envelope-cache-2018-08-04-13-00-04 #PWR?
 U 1 1 5DBC5FC5
 P 2800 3050
 AR Path="/5DBC5FC5" Ref="#PWR?"  Part="1" 
@@ -476,7 +476,7 @@ $EndComp
 Wire Wire Line
 	2800 3050 2800 2950
 $Comp
-L Envelope-cache-2018-08-04-13-00-04:GND #PWR?
+L KicadJE_SympleSeq-rescue:GND-Envelope-cache-2018-08-04-13-00-04 #PWR?
 U 1 1 5DBC7396
 P 4750 3100
 AR Path="/5DBC7396" Ref="#PWR?"  Part="1" 

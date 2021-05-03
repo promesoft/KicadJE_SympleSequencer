@@ -180,7 +180,7 @@ Wire Wire Line
 Wire Wire Line
 	1650 3550 1550 3550
 $Comp
-L Envelope-cache-2018-08-04-13-00-04:GND #PWR?
+L KicadJE_SympleSeq-rescue:GND-Envelope-cache-2018-08-04-13-00-04 #PWR?
 U 1 1 5D9AC271
 P 1150 5200
 AR Path="/5D9AC271" Ref="#PWR?"  Part="1" 
@@ -380,7 +380,7 @@ Connection ~ 4150 4300
 Wire Wire Line
 	4150 4300 4200 4300
 $Comp
-L Envelope-cache-2018-08-04-13-00-04:GND #PWR?
+L KicadJE_SympleSeq-rescue:GND-Envelope-cache-2018-08-04-13-00-04 #PWR?
 U 1 1 5D9CA946
 P 3550 5050
 AR Path="/5D9CA946" Ref="#PWR?"  Part="1" 
@@ -556,7 +556,7 @@ Wire Wire Line
 	2150 1600 2150 1700
 Connection ~ 2150 1700
 $Comp
-L Envelope-cache-2018-08-04-13-00-04:GND #PWR?
+L KicadJE_SympleSeq-rescue:GND-Envelope-cache-2018-08-04-13-00-04 #PWR?
 U 1 1 5DA5466A
 P 3350 2400
 AR Path="/5DA5466A" Ref="#PWR?"  Part="1" 
@@ -675,7 +675,7 @@ Wire Wire Line
 Wire Wire Line
 	7950 2600 7650 2600
 $Comp
-L Envelope-cache-2018-08-04-13-00-04:GND #PWR?
+L KicadJE_SympleSeq-rescue:GND-Envelope-cache-2018-08-04-13-00-04 #PWR?
 U 1 1 5DC0A5A8
 P 7350 2600
 AR Path="/5DC0A5A8" Ref="#PWR?"  Part="1" 
@@ -688,7 +688,7 @@ F 3 "" H 7350 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Envelope-cache-2018-08-04-13-00-04:GND #PWR?
+L KicadJE_SympleSeq-rescue:GND-Envelope-cache-2018-08-04-13-00-04 #PWR?
 U 1 1 5DC0B21E
 P 6450 2600
 AR Path="/5DC0B21E" Ref="#PWR?"  Part="1" 
@@ -878,7 +878,7 @@ $EndComp
 Wire Wire Line
 	2475 3275 2475 3550
 $Comp
-L Envelope-cache-2018-08-04-13-00-04:GND #PWR?
+L KicadJE_SympleSeq-rescue:GND-Envelope-cache-2018-08-04-13-00-04 #PWR?
 U 1 1 5EB8117E
 P 2375 3350
 AR Path="/5EB8117E" Ref="#PWR?"  Part="1" 
