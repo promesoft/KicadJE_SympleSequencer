@@ -54,7 +54,8 @@ Designed to fit the faceplate of a Hexinverter SympleSeq E2 faceplate from Re:Sy
 ### Clock
 1 - diodes for hold input  
 2 - diodes for reset input  
-3 - Gate AND Clock for gate output to reset between gates - consider making a phase adjust for shorter/longer gates
+3 - Gate AND Clock for gate output to reset between gates - consider making a phase adjust for shorter/longer gates  
+4 - OPEN resistor from Internal CLK to 4017 clock in (for use with Sequencer A that does not take slave clk input)
 ### Control
 1 - switches still reversed  
 2 - diode missing for reset  
