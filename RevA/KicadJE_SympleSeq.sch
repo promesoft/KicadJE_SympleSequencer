@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -79,7 +79,7 @@ Wire Wire Line
 Wire Wire Line
 	3050 3000 3300 3000
 $Comp
-L Envelope-cache-2018-08-04-13-00-04:GND #PWR0101
+L KicadJE_SympleSeq-rescue:GND-Envelope-cache-2018-08-04-13-00-04 #PWR0101
 U 1 1 5D94A828
 P 1650 1150
 AR Path="/5D94A828" Ref="#PWR0101"  Part="1" 
@@ -98,7 +98,7 @@ CV_M
 Text GLabel 1850 3600 0    50   Input ~ 0
 G8_M
 $Comp
-L Envelope-cache-2018-08-04-13-00-04:GND #PWR0106
+L KicadJE_SympleSeq-rescue:GND-Envelope-cache-2018-08-04-13-00-04 #PWR0106
 U 1 1 5D94A8C3
 P 1650 3000
 AR Path="/5D94A8C3" Ref="#PWR0106"  Part="1" 
@@ -115,7 +115,7 @@ Wire Wire Line
 Wire Wire Line
 	2050 3000 2500 3000
 $Comp
-L Envelope-cache-2018-08-04-13-00-04:GND #PWR0109
+L KicadJE_SympleSeq-rescue:GND-Envelope-cache-2018-08-04-13-00-04 #PWR0109
 U 1 1 5D94A8CC
 P 2500 4100
 AR Path="/5D94A8CC" Ref="#PWR0109"  Part="1" 
@@ -216,7 +216,7 @@ Wire Wire Line
 Wire Wire Line
 	5950 2550 6350 2550
 $Comp
-L Envelope-cache-2018-08-04-13-00-04:GND #PWR0105
+L KicadJE_SympleSeq-rescue:GND-Envelope-cache-2018-08-04-13-00-04 #PWR0105
 U 1 1 5DAF76B5
 P 6500 2650
 AR Path="/5DAF76B5" Ref="#PWR0105"  Part="1" 
@@ -261,7 +261,7 @@ Wire Wire Line
 Wire Wire Line
 	6750 3700 7000 3700
 $Comp
-L Envelope-cache-2018-08-04-13-00-04:GND #PWR0110
+L KicadJE_SympleSeq-rescue:GND-Envelope-cache-2018-08-04-13-00-04 #PWR0110
 U 1 1 5DB1D972
 P 6800 4900
 AR Path="/5DB1D972" Ref="#PWR0110"  Part="1" 
@@ -306,7 +306,7 @@ Wire Wire Line
 	6350 2350 6650 2350
 Connection ~ 6350 2350
 $Comp
-L Envelope-cache-2018-08-04-13-00-04:GND #PWR0102
+L KicadJE_SympleSeq-rescue:GND-Envelope-cache-2018-08-04-13-00-04 #PWR0102
 U 1 1 5DB5D123
 P 6850 2050
 AR Path="/5DB5D123" Ref="#PWR0102"  Part="1" 
@@ -353,7 +353,7 @@ Wire Wire Line
 Wire Wire Line
 	6250 3200 6500 3200
 $Comp
-L Envelope-cache-2018-08-04-13-00-04:GND #PWR0107
+L KicadJE_SympleSeq-rescue:GND-Envelope-cache-2018-08-04-13-00-04 #PWR0107
 U 1 1 5DB715F6
 P 6300 3500
 AR Path="/5DB715F6" Ref="#PWR0107"  Part="1" 
@@ -422,7 +422,7 @@ F 3 "~" H 4000 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Envelope-cache-2018-08-04-13-00-04:GND #PWR0108
+L KicadJE_SympleSeq-rescue:GND-Envelope-cache-2018-08-04-13-00-04 #PWR0108
 U 1 1 5DB7AF5D
 P 3500 3950
 AR Path="/5DB7AF5D" Ref="#PWR0108"  Part="1" 
@@ -473,7 +473,7 @@ Wire Wire Line
 Wire Wire Line
 	2050 1150 2500 1150
 $Comp
-L Envelope-cache-2018-08-04-13-00-04:GND #PWR0104
+L KicadJE_SympleSeq-rescue:GND-Envelope-cache-2018-08-04-13-00-04 #PWR0104
 U 1 1 5DB86DFE
 P 2500 2250
 AR Path="/5DB86DFE" Ref="#PWR0104"  Part="1" 
@@ -514,7 +514,7 @@ F 3 "~" H 2500 2000 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Envelope-cache-2018-08-04-13-00-04:GND #PWR0103
+L KicadJE_SympleSeq-rescue:GND-Envelope-cache-2018-08-04-13-00-04 #PWR0103
 U 1 1 5DB86E1B
 P 3500 2100
 AR Path="/5DB86E1B" Ref="#PWR0103"  Part="1" 

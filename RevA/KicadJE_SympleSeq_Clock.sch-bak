@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L KicadJE_SympleSeq-rescue:LM555-Timer U?
+L Timer:LM555 U?
 U 1 1 5D9A0E3B
 P 3350 1900
 AR Path="/5C8BFBBC/5D9A0E3B" Ref="U?"  Part="1" 
@@ -189,7 +189,7 @@ Wire Wire Line
 	1650 3550 1550 3550
 Connection ~ 1650 3950
 $Comp
-L KicadJE_SympleSeq-rescue:GND-Envelope-cache-2018-08-04-13-00-04 #PWR?
+L Envelope-cache-2018-08-04-13-00-04:GND #PWR?
 U 1 1 5D9AC271
 P 1150 5200
 AR Path="/5D9AC271" Ref="#PWR?"  Part="1" 
@@ -415,7 +415,7 @@ Connection ~ 3950 4300
 Wire Wire Line
 	3950 4300 4000 4300
 $Comp
-L KicadJE_SympleSeq-rescue:GND-Envelope-cache-2018-08-04-13-00-04 #PWR?
+L Envelope-cache-2018-08-04-13-00-04:GND #PWR?
 U 1 1 5D9CA946
 P 3350 5050
 AR Path="/5D9CA946" Ref="#PWR?"  Part="1" 
@@ -687,7 +687,7 @@ Wire Wire Line
 	2150 1600 2150 1700
 Connection ~ 2150 1700
 $Comp
-L KicadJE_SympleSeq-rescue:GND-Envelope-cache-2018-08-04-13-00-04 #PWR?
+L Envelope-cache-2018-08-04-13-00-04:GND #PWR?
 U 1 1 5DA5466A
 P 3350 2400
 AR Path="/5DA5466A" Ref="#PWR?"  Part="1" 
@@ -806,7 +806,7 @@ Wire Wire Line
 Wire Wire Line
 	7650 2600 7350 2600
 $Comp
-L KicadJE_SympleSeq-rescue:GND-Envelope-cache-2018-08-04-13-00-04 #PWR?
+L Envelope-cache-2018-08-04-13-00-04:GND #PWR?
 U 1 1 5DC0A5A8
 P 7050 2600
 AR Path="/5DC0A5A8" Ref="#PWR?"  Part="1" 
@@ -819,7 +819,7 @@ F 3 "" H 7050 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L KicadJE_SympleSeq-rescue:GND-Envelope-cache-2018-08-04-13-00-04 #PWR?
+L Envelope-cache-2018-08-04-13-00-04:GND #PWR?
 U 1 1 5DC0B21E
 P 6450 2600
 AR Path="/5DC0B21E" Ref="#PWR?"  Part="1" 
