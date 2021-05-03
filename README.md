@@ -52,8 +52,8 @@ Designed to fit the faceplate of a Hexinverter SympleSeq E2 faceplate from Re:Sy
 
 ## Issues and Notes
 ### Clock
-1 -  
-2 -  
+1 - diodes for hold input  
+2 - diodes for reset input  
 ### Control
 1 - switches still reversed  
 2 - diode missing for reset  
