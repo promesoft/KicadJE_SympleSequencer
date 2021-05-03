@@ -46,9 +46,10 @@ Designed to fit the faceplate of a Hexinverter SympleSeq E2 faceplate from Re:Sy
 
 ## Errata
 ### Errata - clock
-#### Series capacitors not working with reset (overloads CD4017) - replace w resistors
+#### Series capacitors not working with reset (overloads CD4017)
+ - replace w resistors (2k and 9k1 tested and working fine)
 #### Hold not working 
-Either swap R206 100k pullup with 22k-47k and R212 10k with 100k or tie hold to +12v works
+ - Either swap R206 100k pullup with 22k-47k and R212 10k with 100k or tie hold to +12v works
 ### Errata - control
 #### 
 
