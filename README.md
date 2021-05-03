@@ -26,6 +26,7 @@ Designed to fit the faceplate of a Hexinverter SympleSeq E2 faceplate from Re:Sy
 | Initial Inspection | clock board| ok |
 | Initial Inspection | control board | ok  |
 | Initial Technical Test |  | 100n capacitors in series w output is replaced w 2k |
+| Initial Product Test |  | 100n C101 capacitor parallel w 150k |
 | Initial Product Test |  | ongoing |
 
 ## Secondary validation
